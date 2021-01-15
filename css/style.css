@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+
+.titolo-2 {
+  display: none;
+}
+.square {
+  width: 200px;
+  height: 200px;
+  background-color: #ddd;
+}
+.square:hover {
+  background-color: yellow;
+}
+.square:hover .titolo-1 {
+  display: none;
+}
+.square:hover .titolo-2 {
+  display: block;
+}
